@@ -1,0 +1,290 @@
+[
+    {
+        "burgers": [
+            {
+                "id": 1,
+                "place": "Hite daddy",
+                "image_url": "/Data/Products/burgers/image (1).jpg",
+                "description": "Burger, Fast food",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 2,
+                "place": "Hite daddy",
+                "image_url": "/Data/Products/burgers/image (2).jpg",
+                "description": "Burger, Fast food",
+                "rates": 3,
+                "price": 200
+            },
+            {
+                "id": 3,
+                "place": "Hite daddy",
+                "image_url": "/Data/Products/burgers/image (3).jpg",
+                "description": "Burger, Fast food",
+                "rates": 2,
+                "price": 200
+            },
+            {
+                "id": 4,
+                "place": "Hite daddy",
+                "image_url": "/Data/Products/burgers/image (4).jpg",
+                "description": "Burger, Fast food",
+                "rates": 4,
+                "price": 200
+            }
+        ],
+        "desserts": [
+            {
+                "id": 5,
+                "place": "cafe cofee day",
+                "image_url": "/Data/Products/desserts/image (1).jpg",
+                "description": "Sweet Sweet",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 6,
+                "place": "cafe cofee day",
+                "image_url": "/Data/Products/desserts/image (2).jpg",
+                "description": "Sweet Sweet",
+                "rates": 4,
+                "price": 200
+            },
+            {
+                "id": 7,
+                "place": "cafe cofee day",
+                "image_url": "/Data/Products/desserts/image (3).jpg",
+                "description": "Sweet Sweet",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 8,
+                "place": "cafe cofee day",
+                "image_url": "/Data/Products/desserts/image (4).jpg",
+                "description": "Sweet Sweet",
+                "rates": 4,
+                "price": 200
+            },
+            {
+                "id": 9,
+                "place": "cafe cofee day",
+                "image_url": "/Data/Products/desserts/image (5).jpg",
+                "description": "Sweet Sweet",
+                "rates": 3,
+                "price": 200
+            },
+            {
+                "id": 10,
+                "place": "cafe cofee day",
+                "image_url": "/Data/Products/desserts/image (6).jpg",
+                "description": "Sweet Sweet",
+                "rates": 4,
+                "price": 200
+            },
+            {
+                "id": 11,
+                "place": "cafe cofee day",
+                "image_url": "/Data/Products/desserts/image (7).jpg",
+                "description": "Sweet Sweet",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 12,
+                "place": "cafe cofee day",
+                "image_url": "/Data/Products/desserts/image (8).jpg",
+                "description": "Sweet Sweet",
+                "rates": 4,
+                "price": 200
+            }
+        ],
+        "pizza": [
+            {
+                "id": 13,
+                "place": "Macdiii",
+                "image_url": "/Data/Products/pizza/image (1).jpg",
+                "description": "Ek vari aa ja",
+                "rates": 4,
+                "price": 200
+            },
+            {
+                "id": 14,
+                "place": "Macdiii",
+                "image_url": "/Data/Products/pizza/image (2).jpg",
+                "description": "Ek vari aa ja",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 15,
+                "place": "Macdiii",
+                "image_url": "/Data/Products/pizza/image (3).jpg",
+                "description": "Ek vari aa ja",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 16,
+                "place": "Macdiii",
+                "image_url": "/Data/Products/pizza/image (4).jpg",
+                "description": "Ek vari aa ja",
+                "rates": 4,
+                "price": 200
+            }
+        ],
+        "soups": [
+            {
+                "id": 17,
+                "place": "Macdiii",
+                "image_url": "/Data/Products/soups/image (1).jpg",
+                "description": "Ek vari aa ja",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 18,
+                "place": "Macdiii",
+                "image_url": "/Data/Products/soups/image (2).jpg",
+                "description": "Ek vari aa ja",
+                "rates": 4,
+                "price": 200
+            },
+            {
+                "id": 19,
+                "place": "Macdiii",
+                "image_url": "/Data/Products/soups/image (3).jpg",
+                "description": "Ek vari aa ja",
+                "rates": 6,
+                "price": 200
+            }
+        ],
+        "sports": [
+            {
+                "id": 20,
+                "place": "Puma",
+                "image_url": "/Data/Products/sports/shoe.jpg",
+                "description": "Style",
+                "rates": 3,
+                "price": 200
+            }
+        ],
+        "starters": [
+            {
+                "id": 21,
+                "place": "Starterway",
+                "image_url": "/Data/Products/starters/image (1).jpg",
+                "description": "Sweet Sweet",
+                "rates": 4,
+                "price": 200
+            },
+            {
+                "id": 22,
+                "place": "Starterway",
+                "image_url": "/Data/Products/starters/image (2).jpg",
+                "description": "Sweet Sweet",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 23,
+                "place": "Starterway",
+                "image_url": "/Data/Products/starters/image (3).jpg",
+                "description": "Sweet Sweet",
+                "rates": 3,
+                "price": 200
+            },
+            {
+                "id": 24,
+                "place": "Starterway",
+                "image_url": "/Data/Products/starters/image (4).jpg",
+                "description": "Sweet Sweet",
+                "rates": 2,
+                "price": 200
+            },
+            {
+                "id": 26,
+                "place": "Starterway",
+                "image_url": "/Data/Products/starters/image (5).jpg",
+                "description": "Sweet Sweet",
+                "rates": 3,
+                "price": 200
+            },
+            {
+                "id": 27,
+                "place": "Starterway",
+                "image_url": "/Data/Products/starters/image (6).jpg",
+                "description": "Sweet Sweet",
+                "rates": 4,
+                "price": 200
+            },
+            {
+                "id":28 ,
+                "place": "Starterway",
+                "image_url": "/Data/Products/starters/image (7).jpg",
+                "description": "Sweet Sweet",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 29,
+                "place": "Starterway",
+                "image_url": "/Data/Products/starters/image (8).jpg",
+                "description": "Sweet Sweet",
+                "rates": 2,
+                "price": 200
+            }
+        ],
+        "wraps": [
+            {
+                "id": 30,
+                "place": "wraperday",
+                "image_url": "/Data/Products/wraps/image (1).jpg",
+                "description": "Sweet Sweet",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 31,
+                "place": "wraperday",
+                "image_url": "/Data/Products/wraps/image (2).jpg",
+                "description": "Sweet Sweet",
+                "rates": 5,
+                "price": 200
+            },
+            {
+                "id": 32,
+                "place": "wraperday",
+                "image_url": "/Data/Products/wraps/image (3).jpg",
+                "description": "Sweet Sweet",
+                "rates": 3,
+                "price": 200
+            },
+            {
+                "id": 33,
+                "place": "wraperday",
+                "image_url": "/Data/Products/wraps/image (4).jpg",
+                "description": "Sweet Sweet",
+                "rates": 3,
+                "price": 200
+            },
+            {
+                "id": 34,
+                "place": "wraperday",
+                "image_url": "/Data/Products/wraps/image (5).jpg",
+                "description": "Sweet Sweet",
+                "rates": 4,
+                "price": 200
+            },
+            {
+                "id": 35,
+                "place": "wraperday",
+                "image_url": "/Data/Products/wraps/image (6).jpg",
+                "description": "Sweet Sweet",
+                "rates": 6,
+                "price": 200
+            }
+        ]
+    }
+]

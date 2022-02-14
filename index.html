@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to ecommerce applications</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-primary fixed-top bg-dark">
+      <div class="container">
+        <a
+          href=""
+          class="navbar-brand"
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+          >MEALONCE</a
+        >
+        <div class="navbar-nav mr-auto col-7">
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control form-control-sm mr-2 col-6 ml-3"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-sm btn-outline-primary my-2 pl-3 pr-3 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+        <button class="btn btn-primary btn-sm mr-3 pl-3 pr-3 text-15">
+          Login
+        </button>
+        <button
+          class="btn btn-danger btn-sm border-0 text-light pl-3 pr-3"
+          style="font-size: 15px"
+        >
+          <i
+            class="bx bx-cart-alt mr-1"
+            style="font-size: 18px; transform: translateY(2px)"
+          ></i>
+          <span class="mb-3">Cart</span>
+        </button>
+      </div>
+    </nav>
+    <br /><br />
+    <div class="card p-1 mt-2">
+      <div class="container">
+        <ul class="nav justify-content-center nav-pills text-15">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" id="all">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="burgers">Burger</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="desserts">Desserts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="pizza">Pizza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="soups">Soups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="starter">Starter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="wraps">Wraps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="sports">Sports</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div
+      class="card float-left"
+      style="width: 190px; transform: translateY(-1px)"
+    >
+      <div class="card-body">
+        <h5 class="card-text">Filters</h5>
+        <br />
+        <p class="card-title bold">Customer Ratings</p>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="4" />
+          <label class="form-check-label" for="4">
+            4 <i class="bx bxs-star"></i> & above
+          </label>
+        </div>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="3" />
+          <label class="form-check-label" for="3">
+            3 <i class="bx bxs-star"></i> & above
+          </label>
+        </div>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="2" />
+          <label class="form-check-label" for="2">
+            2 <i class="bx bxs-star"></i> & above
+          </label>
+        </div>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="1" />
+          <label class="form-check-label" for="1">
+            1<i class="bx bxs-star"></i> & above
+          </label>
+        </div>
+
+        <hr class="hr" />
+        <p class="card-title bold">Price</p>
+        <input
+          type="range"
+          min="1"
+          max="100"
+          value="50"
+          id="slider"
+          class="mb-2"
+        />
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Min</option>
+          <option value="1">50</option>
+          <option value="2">150</option>
+          <option value="3">300</option>
+        </select>
+        <span class="text-secondary m-1">to</span>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Max</option>
+          <option value="1">50</option>
+          <option value="2">150</option>
+          <option value="3">300</option>
+          <option value="1">500</option>
+          <option value="2">550</option>
+          <option value="3">800</option>
+        </select>
+        <hr class="hr" />
+        <p class="card-title bold">Discount</p>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="50" />
+          <label class="form-check-label" for="50"> 50% & more </label>
+        </div>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="10" />
+          <label class="form-check-label" for="10"> 10% & more </label>
+        </div>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="20" />
+          <label class="form-check-label" for="20"> 20% & more </label>
+        </div>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="30" />
+          <label class="form-check-label" for="30"> 30% & more </label>
+        </div>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="40" />
+          <label class="form-check-label" for="40"> 40% & more </label>
+        </div>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="60" />
+          <label class="form-check-label" for="60"> 60% & more </label>
+        </div>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="70" />
+          <label class="form-check-label" for="70"> 70% & more </label>
+        </div>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="80" />
+          <label class="form-check-label" for="80"> 80% & more </label>
+        </div>
+        <hr class="hr" />
+        <p class="card-title bold">Availability</p>
+        <div class="form-check mb-1">
+          <input class="form-check-input" type="checkbox" value="" id="oos" />
+          <label class="form-check-label" for="oos"> Out of stock </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="products float-left m-3 d-flex flex-wrap" id="products">
+      
+     
+      </div> 
+
+        <!-- product end -->
+    </div>
+  
+    <script src="main.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

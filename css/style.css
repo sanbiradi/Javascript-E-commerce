@@ -1,0 +1,26 @@
+.text-15{
+    font-size: 15px
+}
+html{
+    scroll-behavior: smooth;
+}
+.text-14{
+    font-size: 15px
+}
+.text-12{
+    font-size: 14px;
+}
+p{
+    padding: 0%;
+    margin: 0px;
+}
+
+.bold{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.products{
+    width: 83%;
+}
